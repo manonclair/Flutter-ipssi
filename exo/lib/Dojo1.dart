@@ -52,22 +52,22 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     String name  = colorNames[i];
     return SizedBox(
-  width: 120,  
-  height: 50,  
-  child: Center(
-  child: ElevatedButton(
-    onPressed: _changeColor,
-    style: ElevatedButton.styleFrom(
-      backgroundColor: _currentColor,
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-    ),
-    child: Text(
-      name,
-      style: const TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
-    ),
-  ),
-)
+      width: 120,  
+      height: 50,  
+      child: Center(
+      child: ElevatedButton(
+        onPressed: _changeColor,
+        style: ElevatedButton.styleFrom(
+          backgroundColor: _currentColor,
+          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        ),
+        child: Text(
+          name,
+          style: const TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+      ),
+    )
 
     );
   } 

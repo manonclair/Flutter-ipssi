@@ -105,7 +105,7 @@ class _HomeState extends State<Home> {
                   hintText: 'Entrez une couleur',
                   border: UnderlineInputBorder(),
                   enabledBorder: UnderlineInputBorder(
-                  borderSide: BorderSide(color: Color(0xFFBDBDBD), width: 1), // gris
+    
                   ),
                 ),
               ),
